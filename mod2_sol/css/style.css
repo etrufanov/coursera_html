@@ -1,0 +1,39 @@
+/* desktop */ 
+@media (min-width: 992px) {
+    .box {
+        width: 33.33%;
+        float: left;
+    }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* mobile */
+@media (max-width: 767px) {
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: auto;
+}
+
+.row {
+    width: 100%;
+}
+
+
+.box {
+    background-color: #A9A9A9;
+    padding: 0px;
+    border: 0px solid black;
+    margin: 1px;
+    height: 50px;
+    
+} 
