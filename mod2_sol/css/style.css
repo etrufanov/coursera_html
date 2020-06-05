@@ -39,8 +39,34 @@ h1 {
     font-size: 1.75em;
 }
 
-.title {
-    background-color: #6699ff;
+.title1 {
+    background-color: #99ccff;
+    font-size: 1.25em;
+    border: 1px solid white;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width : 75px;
+    text-align: center;
+    margin: 0px;
+    
+}
+
+.title2 {
+    background-color: #66b3ff;
+    font-size: 1.25em;
+    border: 1px solid white;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width : 75px;
+    text-align: center;
+    margin: 0px;
+    
+}
+
+.title3 {
+    background-color: #3399ff;
     font-size: 1.25em;
     border: 1px solid white;
     position: absolute;
