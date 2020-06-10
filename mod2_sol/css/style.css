@@ -2,7 +2,6 @@
 @media (min-width: 992px) {
     .box-d {
         width: calc(33.33% - 20px);
-        float: left;
     }
 }
 
@@ -11,11 +10,9 @@
 @media (min-width: 768px) and (max-width: 991px) {
     .box-t1 {
         width: calc(50% - 20px);
-        float: left;
     }
     .box-t2 {
         width: calc(100% - 20px);
-        float: left;
     }
 }
 
@@ -79,7 +76,8 @@ h1 {
 }
 
 .row {
-    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .box-d {
